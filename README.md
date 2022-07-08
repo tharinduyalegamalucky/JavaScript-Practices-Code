@@ -1,5 +1,5 @@
 # JavaScript-Practices-Code
 JavaScript
 
-This is a my practices code.
-****Tharindu Yalegama****
+<h1>This is a my practices code.<h1>
+<h2>****Tharindu Yalegama****<h2>
