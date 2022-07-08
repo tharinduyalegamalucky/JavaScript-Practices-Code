@@ -42,3 +42,26 @@ console.log(s.split(''));
 const y = 'technology, computers, it, code';
 
 console.log(y.split(''));
+
+
+const numbers = new Array(1,2,3,4,5);
+
+console.log(numbers);
+
+const fruits =['apples', 'oranges', 'pears',10];
+
+
+fruits[3] ='grapes';
+
+fruits.push('mangos');
+
+fruits.unshift('strawberries');
+
+fruits.pop();
+
+console.log(Array.isArray('hello'));
+
+console.log(fruits.indexOf('oranges'));
+console.log(fruits);
+console.log(fruits[1]);
+
