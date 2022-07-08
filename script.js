@@ -21,3 +21,24 @@ console.log(typeof isCool);
 console.log(typeof x);
 console.log(typeof y);
 console.log(typeof z);
+
+//Concatenation
+console.log('My name ' +name + 'and I am ' + age);
+//Template String
+const hello = `My name is ${name} and I am ${age}`;
+
+console.log(hello);
+
+const s = 'Hello World';
+
+console.log(s.toUpperCase());
+console.log(s.toLowerCase());
+console.log(s.substring());
+console.log(s.substring(0, 5));
+console.log(s.substring(0, 5).toUpperCase());
+console.log(s.split(''));
+
+
+const y = 'technology, computers, it, code';
+
+console.log(y.split(''));
