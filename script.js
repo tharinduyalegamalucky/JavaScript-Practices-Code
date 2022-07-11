@@ -65,3 +65,26 @@ console.log(fruits.indexOf('oranges'));
 console.log(fruits);
 console.log(fruits[1]);
 
+
+const person= {
+    firstName : 'John',
+    lastName : 'Doe',
+    age : 30,
+    hobbies: ['music', 'movies', 'sports'],
+    address : {
+        street : '50 main st',
+        city : 'Boston',
+        state : 'MA'
+    }
+}
+
+console.log(person.hobbies[1]);
+console.log(person.address);
+const {firstName, lastName, address : {city} }= person;
+
+console.log(city);
+
+person.email = 'john@gmail.com';
+
+console.log(person);
+
