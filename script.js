@@ -88,3 +88,32 @@ person.email = 'john@gmail.com';
 
 console.log(person);
 
+
+
+const todos =[
+        { 
+        id : 1,
+        text : 'Text our trash',
+        isCompleted : true
+    },
+
+    { 
+        id : 2,
+        text : 'Meeting with boss',
+        isCompleted : true
+    },
+
+    { 
+        id : 3,
+        text : 'Dentist appt',
+        isCompleted : false
+    }
+];
+
+console.log(todos[1].text);
+console.log(todos[2].id);
+console.log(todos[0].isCompleted);
+
+const todosJSON = JSON.stringify(todos);
+console.log(todosJSON);
+
