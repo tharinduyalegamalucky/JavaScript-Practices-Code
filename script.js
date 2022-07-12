@@ -117,3 +117,90 @@ console.log(todos[0].isCompleted);
 const todosJSON = JSON.stringify(todos);
 console.log(todosJSON);
 
+
+//For
+for (let i = 0; i < 10; i++){
+    console.log(i);
+}
+
+for (let x = 0; x <= 10; x++){
+    console.log(x);
+}
+
+for (let i =0; i <= 10; i++){
+    console.log(`For Loop Number: ${i}`);
+}
+
+//While Loop
+let i = 0;
+while(i <10){
+    console.log(`While Loop Number: ${i}`);
+    i++;
+}
+
+
+for(let y = 0; y < todos.length; y++) {
+    console.log(y);
+}
+
+for(let y = 0; y < todos.length; y++) {
+    console.log(todos[y].text);
+}
+
+for(let todo of todos) {
+    console.log(todo.id);
+}
+
+//forEach, map, filter
+
+todos.forEach(function(todo){
+    console.log(todo.text);
+});
+
+todos.map(function(todo){
+    console.log(todo.text);
+});
+
+const todoText = todos.map(function(todo){
+    return todo.text;
+});
+
+console.log(todoText);
+
+// const todoCompleted = todos.filter(function(todo){
+//     return todo.isCompleted === true;
+// });
+
+// console.log(todoCompleted);
+
+const todoCompleted = todos.filter(function(todo){
+    return todo.isCompleted === true;
+}).map(function(todo){
+    return todo.text;
+})
+
+console.log(todoCompleted);
+
+const z = 4;
+
+if(z === 10){
+    console.log('z is 10');
+} else if(x > 10) {
+    console.log('z is greater than 10');
+} else {
+    console.log('z is less than 10');
+}
+
+const w = 4;
+const c = 11;
+
+if(w > 5 || c > 10 ){
+    console.log('w is more than 5 or c is more than 10');
+}
+
+const a = 6;
+const d = 11;
+
+if(a > 5 && d > 10) {
+    console.log('a is more than 5 or d is more than 10');
+}
