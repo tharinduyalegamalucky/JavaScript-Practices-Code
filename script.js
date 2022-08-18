@@ -208,43 +208,43 @@ if(a > 5 && d > 10) {
 
 // ------BMI Comparison-------
 
-// var mass, height, bmik, bmic, isKasun;
+var mass, height, bmik, bmic, isKasun;
 
-// // Kasun's BMI
-// mass = prompt("Kasun's mass : ");
-// height = prompt("Kasun's height : ");
-// bmik = mass / (height * height);
+// Kasun's BMI
+mass = prompt("Kasun's mass : ");
+height = prompt("Kasun's height : ");
+bmik = mass / (height * height);
 
-// //Chamar's BMI
-// mass = prompt("Chamara's mass : ");
-// height = prompt("Chamara's height : ");
-// bmic = mass / (height * height);
+//Chamar's BMI
+mass = prompt("Chamara's mass : ");
+height = prompt("Chamara's height : ");
+bmic = mass / (height * height);
 
 // //boolean
-// isKasun = (bmik > bmic);
+isKasun = (bmik > bmic);
 
-// alert(isKasun);
+alert(isKasun);
 
 
 // If Else----------
 // -----------------
 
-// var a = 10;
-// var b = 20;
+var a = 10;
+var b = 20;
 
-// if(a > b){
-//     console.log("a is greater than b");
-// }
-// else if(a < b){
-//     console.log("a less than b");
-// }
-// else{
-//     console.log("a is less than or equal to b");
-// }
+if(a > b){
+    console.log("a is greater than b");
+}
+else if(a < b){
+    console.log("a less than b");
+}
+else{
+    console.log("a is less than or equal to b");
+}
 
-// if(a == 10){
-//     console.log("a is equal to 10");
-// }
+if(a == 10){
+    console.log("a is equal to 10");
+}
 
 
 // --------------------------------------
