@@ -306,3 +306,97 @@ else {
         console.log('c is greater than to 5');
     }
 }
+
+
+// ---------------------------
+// ----Logical Operators------
+// ---------------------------
+
+
+var a = 20;// var a = 10 (And Operator)
+var b = 10;
+var c = 5;
+
+// And
+if(a == 10 && a == b){
+    console.log("It is good");
+}
+
+// Or
+else if(a < 10 || c > b){
+    console.log("It is a Good");
+}
+
+// Not
+else if(a != c){
+    console.log("It is a Not Operator");
+}
+
+
+// ---------------------------
+// ---Switch case-------------
+// ---------------------------
+
+var empName = "Kasun";
+var jobRole = "Doctor";
+
+switch(jobRole.toLocaleLowerCase()){
+    case 'teacher':
+        console.log(empName+' is a Teacher');
+        break;
+    case 'doctor':
+    case 'professor':
+        console.log(empName+' is a Doctor');
+        break;
+    case 'engineer':
+        console.log(empName+' is a Engineer');
+        break;
+    case 'singer':
+        console.log(empName+' is a singer');
+        break;
+    default:
+        console.log(empName+' does something else');
+        break;
+    
+}
+
+//----------------
+
+var age = 20;
+
+switch(true){
+    case age < 20:
+        console.log(empName+' is under age');
+        break;
+    case age >= 20 && age < 30:
+        console.log(empName+' is in perfect age');
+        break;
+    case age >= 30 && age < 50:
+        console.log(empName+' is mature');
+        break;
+    default:
+        console.log(empName+' is too old');
+} 
+
+// --------------------
+// Bitwise Operators
+// --------------------
+
+// 5 - 00000101
+// 1 - 00000001
+
+//And
+console.log(5 & 1);
+
+// Or
+console.log(5 | 1);
+
+// Not
+// 5 -  0000000000000000000000000000000 0101
+// ~5 - 1111111111111111111111111111111 1010
+
+console.log(~5); 
+console.log(~7);
+
+// Xor
+console.log(6 ^ 1);
